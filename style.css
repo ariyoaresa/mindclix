@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #DFFFF3;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+    padding: 0 60px;
+}
+
+nav #logo{
+    background-color: #050505;
+    color: white;
+    border-radius: 5px;
+    padding: 9px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 18px;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #050505;
+}
+
+#login a{
+    background-color: #011E6E;
+    color: white;
+    padding: 15px 55px;
+    border-radius: 5px;
+}
+#signup a{
+    border: #011E6E .5px solid;
+    color: #011E6E;
+    padding: 15px 55px;
+    border-radius: 5px;
+}
+h1, h2{
+    font-size: 55px;
+}
+h3{
+    font-size: 24px;
+}
+p{
+    font-size: 24px;
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 54px;
+}
+.learn{
+    text-decoration: none;
+    color: white;
+    background-color: #011E6E;
+    padding: 15.5px 38px;
+    border-radius: 5px;
+}
+.circle{
+    width: 750px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    background: linear-gradient(180deg, #C2F0FF 37.33%, #C4FBEB 58.18%, #C6FFEA 59.77%, #C5FDEB 67.54%);
+    z-index: -6;
+    position: relative;
+    top: 200px;
+    right: -200px;
+    overflow: hidden;
+}
+.hero-right img{
+    width: 546px;
+    height: 706px;
+    object-fit: cover;
+    position: absolute;
+    top: 100px;
+    right: 20px;
+}
+#uses{
+    background-color: #FCFDFF;
+    text-align: center;
+    color: #222222;
+    padding: 103px 0;
+}
+.uses{
+    margin-top: 55px;
+    display: flex;
+    gap: 41px;
+    justify-content: space-around;
+    flex-shrink: 1;
+    flex-grow: 1;
+    padding: 0 65px;
+}
+.use1{
+    display: flex;
+    align-items: center;
+    width: 33%;
+}
+.use1 img{
+    height: 318px;
+    width: 275.58px;
+    object-fit: cover;
+    border-radius: 5px;
+    
+}
+.use1 .description{
+    background-color: white;
+    width: 170px;
+    height: 216px;
+    display: grid;
+    place-content: center;
+    padding: 0 16px;
+    position: relative;
+    left: -87.5px;
+    box-shadow: 0px 3.35px 20.94px 0px #0000001A;
+    border-radius: 5px;
+    text-align: start;
+}
+.description a{
+    text-decoration: none;
+    margin-top: 20.9px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    width: 131px;
+    height: 40px;
+    color: #011E6E;
+    background-color: transparent;
+    border: .5px solid #011E6E;
+}
+#about{
+    padding: 131px 0;
+    background-color: #F1F5FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+#about img{
+    border-radius: 5px;
+    width: 500px;
+}
+.about{
+    width: 400px;
+}
+#howitworks{
+    background-color: #F1F5FF;
+    display: grid;
+    padding-top: 27px;
+    padding-bottom: 66px;
+}
+#howitworks h2{
+    text-align: center;
+}
+#howitworks .works{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 0 67px;
+    margin-top: 30px;
+}
+#howitworks .work1{
+    background-color: white;
+    display: grid;
+    gap: 20px;
+    border-radius: 5px;
+    padding: 22px 10px 44px 10px;
+}
+#howitworks .svg{
+    width: 30px;
+    aspect-ratio: 1/1;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #F2FFFA;
+    display: grid;
+    place-content: center;
+}
+#howitworks .description{
+    font-size: 18px;
+    
+}
+#getstarted{
+    padding: 92.5px 103.5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.getstarted{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+.getstarted .left a{
+    text-decoration: none;
+    color: white;
+    background-color: #011E6E;
+    padding: 10px;
+    border-radius: 6px;
+}
+.getstarted img{
+    width: 400px;
+    border-radius: 5px;
+}
+#about img{
+    border-radius: 5px;
+    width: 500px;
+}
